@@ -1,0 +1,20 @@
+
+# Secrets
+.env
+.env.*
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated streaming files
+streaming/incoming/*
+streaming/processed/*
+streaming/output/*
+streaming/checkpoint/*
+streaming/consumer_error.txt
+
+# Exclude duplicate model copy
+notebook/models/
